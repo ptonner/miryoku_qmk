@@ -89,3 +89,15 @@ combo_t key_combos[COMBO_COUNT] = {
   COMBO(thumbcombos_fun, KC_APP)
 };
 #endif
+
+// Permissive hold
+
+// bool get_permissive_hold(uint16_t keycode, keyrecord_t *record) {
+//     switch (keycode) {
+//         // Permissive shift
+//         case LSFT_T(KC_F):
+//             return true;
+//         default:
+//             return false;
+//     }
+// }
